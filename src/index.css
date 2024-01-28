@@ -1,3 +1,79 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15vw;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    align-items: center;
+   
+    
+  }
+  .ephemeral h1{
+line-height: 1;
+font-size: 6vw;
+font-weight: 400;
+letter-spacing:-.4vw; 
+  }
+.Motive{
+    
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+
+span{
+ display: inline-block;
+background-color: red;
+
+border-radius: 100px;
+
+margin: 0 13px;
+margin-bottom: -12.5px
+
+  }
+ #one{
+    width: 80px;
+    height:50px;
+    background-image: url(./images/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+ }
+
+#two{
+    width: 120px;
+    height:50px;
+    background-image: url(./images/shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 48%;
+}
+
+#three{
+    width: 80px;
+    height:50px;
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+#pictures{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vw;
+    padding: 3vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+
+}
+.bottleimg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 70%;
+}
+#btext{
+  width: 35%;
+  padding: 0 3vw;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
